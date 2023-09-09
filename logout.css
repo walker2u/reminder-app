@@ -1,0 +1,31 @@
+/* CSS Centering Code with the Universal Selector "*" */ 
+
+* {
+
+text-align: center;
+
+}
+
+/*Alternative CSS Centering Code with the "body" Selector*/
+
+body 
+{
+  font-family:Arial; 
+  background: -webkit-linear-gradient(to right, #155799, #159957); 
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+
+text-align: center;
+
+}
+
+/* Styling */
+
+body {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D;    
+}

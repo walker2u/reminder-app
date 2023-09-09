@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Reminder  </title>
+    <link rel="stylesheet" href="modify-reminder.css">
+
+</head>
+<body>
+    <br><br><br>
+<h1>Modify Reminder</h1>
+    <p>Select Date</p><input type="date" id="date" required>
+    <br><br><br>
+    <label for="Subjects">Subject: </label>
+
+<select name="Subjects" id="Subjects" required>
+  <option value="options">Options</option>
+  <option value="maths">Maths</option>
+  <option value="computer">Computer</option>
+  <option value="english">English</option>
+  <option value="physics">Physics</option>
+</select>
+   <br><br>
+    
+    <label for="description">Add Description:</label>
+    <input type="text" id="description" name="description" required autocomplete="given-description">
+    <br><br>
+    
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" name="email" required autocomplete="off">
+    <br><br>
+    
+    <label for="contact">Contact No.:</label>
+    <input type="text" id="contact" name="contact" autocomplete="given-contact">
+    <br><br>
+    
+    <label for="sms">SMS No.:</label>
+    <input type="text" id="sms" name="sms" autocomplete="given-sms">
+    <br><br>
+    
+    <input type="checkbox" id="recur for next" name="next" value="7 Days" autocomplete=" ">
+    <label for="next"> 7 Days</label><br>
+    <input type="checkbox" id="recur for next" name="next" value="5 Days" autocomplete=" ">
+    <label for="next"> 5 Days</label><br>
+    <input type="checkbox" id="recur for next" name="next" value="3 Days" autocomplete=" ">
+    <label for="next"> 3 Days</label><br>
+    <input type="checkbox" id="recur for next" name="next" value="2 Days" autocomplete=" ">
+    <label for="next"> 2 Days</label><br><br>
+
+    
+
+    <input type="button" value="Back" onclick="history.back()">
+    <button type="confirm">confirm</button>
+    <button type="logout">logout</button>
+</body>
+</html>
